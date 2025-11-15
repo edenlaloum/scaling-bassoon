@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onigiri - L'Aventure Noire et Cerise</title> 
+    
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="background-canvas">
+        <video autoplay muted loop id="bg-video">
+            <source src="videos/cerisier_sombre_loop.mp4" type="video/mp4">
+            </video>
+    </div>
+
+  <header>
+    <div class="logo">
+        <img src="images/team_litchi_logo.png" alt="Logo Team Litchi" class="team-logo">
+    </div>
+    
+    <nav class="navigation-bar">
+        <ul>
+            <li><a href="#accueil">Accueil</a><div class="underline"></div></li>
+            <li><a href="#equipe">Équipe Litchi</a><div class="underline"></div></li>
+            <li><a href="#multijoueur">Multijoueur</a><div class="underline"></div></li> 
+            <li><a href="#telecharger">Télécharger</a><div class="underline"></div></li>
+            <li><a href="#ressources">Ressources</a><div class="underline"></div></li>
+        </ul>
+    </nav>
+</header>
+    <main>
+        <section id="accueil" class="content-panel">
+            <h1 class="main-title">Onigiri</h1>
+            <p class="subtitle">Une aventure fantastique inspirée par le folklore japonais</p>
+            <a href="#telecharger" class="cta-button">Découvrir le Jeu</a>
+        </section>
+
+        <section id="equipe" class="content-panel">
+            <h2 class="section-title">Team Litchi - L'Équipe derrière le Rêve</h2>
+            <div class="membres-grid">
+                
+                <div class="membre-wrap">
+                    <a href="mailto:enzo.bouthier@epita.fr" class="membre-carte" title="Cliquer pour envoyer un mail à Enzo">
+                        <img src="images/membre1.jpg" alt="Enzo Bouthier">
+                        <h3>Bouthier</h3>
+                        <p class="role-contact">Rôle</p>
+                        <p class="role-contact email-link">enzo.bouthier@epita.fr</p>
+                    </a>
+                </div>
+                
+                <div class="membre-wrap">
+                    <a href="mailto:tristan.duret-robert@epita.fr" class="membre-carte" title="Cliquer pour envoyer un mail à Tristan">
+                        <img src="images/membre2.jpg" alt="Photo de Tristan Duret-Robert">
+                        <h3>Duret-Robert</h3>
+                        <p class="role-contact">Rôle</p>
+                        <p class="role-contact email-link">tristan.duret-robert@epita.fr</p>
+                    </a>
+                </div>
+
+                <div class="membre-wrap">
+                    <a href="mailto:gabriel.cantat@epita.fr" class="membre-carte" title="Cliquer pour envoyer un mail à Gabriel Cantat">
+                        <img src="images/membre3.jpg" alt="Photo de Gabriel">
+                        <h3> Cantat</h3>
+                        <p class="role-contact">Rôle</p>
+                        <p class="role-contact email-link">gabriel.cantat@epita.fr</p>
+                    </a>
+                </div>
+                
+                <div class="membre-wrap">
+                    <a href="mailto:tibo.hourriez@epita.fr" class="membre-carte" title="Cliquer pour envoyer un mail à Tibo">
+                        <img src="images/membre4.jpg" alt="Photo de Tibo">
+                        <h3>Hourriez</h3>
+                        <p class="role-contact">Rôle</p>
+                        <p class="role-contact email-link">tibo.hourriez@epita.f</p>
+                    </a>
+                </div>
+
+                <div class="membre-wrap">
+                    <a href="mailto:eden.laloum@epita.fr" class="membre-carte" title="Cliquer pour envoyer un mail à Eden">
+                        <img src="images/membre5.jpg" alt="Photo de Eden">
+                        <h3>Laloum</h3>
+                        <p class="role-contact">Rôle</p>
+                        <p class="role-contact email-link">eden.laloum@epita.fr</p>
+                    </a>
+                </div>
+            </div>
+
+        </section>
+<section id="multijoueur" class="content-panel">
+    <h2 class="section-title">Jouez & Partagez Onigiri</h2>
+    <p class="subtitle">Le jeu est conçu pour des sessions dynamiques en ligne, de 2 à 4 joueurs.</p>
+
+    <div class="multijoueur-info">
+        <h3>Mode Multijoueur en Ligne</h3>
+        <p>Affrontez vos amis ou faites équipe ! Onigiri supporte le jeu en ligne de **deux à quatre participants** pour une expérience folklorique inoubliable.</p>
+        
+        <div class="statistiques-multijoueur">
+            <div class="stat-item">
+                <span class="stat-number">2-4</span>
+                <span class="stat-label">Joueurs en Ligne</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">🎮</span>
+                <span class="stat-label">Compatibilité Manette</span>
+            </div>
+        </div>
+    </div>
+    
+    <h3>Envoyer et Partager le Jeu</h3>
+    <p>Une fois le jeu téléchargé, partagez votre enthousiasme et le lien de cette page avec vos amis pour qu'ils puissent vous rejoindre !</p>
+    
+    <div class="zone-partage">
+        <input type="text" value="https://votre-site-onigiri.com" readonly class="partage-input">
+        <button class="partage-bouton" onclick="alert('Lien copié ! (Fonctionnalité réelle à implémenter)')">
+            Copier le Lien
+        </button>
+    </div>
+</section>
+        <section id="telecharger" class="content-panel">
+            <h2 class="section-title">Télécharger Onigiri</h2>
+            <p class="subtitle">Préparez-vous à l'aventure. Choisissez votre plateforme :</p>
+            
+            <div class="boutons-telechargement">
+                <a href="liens/onigiri_pc.zip" download="Onigiri_Windows.zip" class="bouton-telecharger">Télécharger le jeu Windows</a>
+               
+                <a href="#" class="bouton-telecharger coming-soon">Bientot disponible pour Linux</a>
+                <a href="#" class="bouton-telecharger coming-soon">support Manette</a>
+            </div>
+
+            </div>
+        </section>
+
+        <section id="ressources" class="content-panel">
+            <h2 class="section-title">Ressources & Inspirations</h2>
+            <p class="subtitle">L'encre et les cerisiers : les sources de notre univers.</p>
+            <ul class="inspiration-list">
+                <li>**Folklore:** Les légendes des **Oni** et des esprits **Kodama**.</li>
+                <li>**Graphisme:** L'esthétique sombre et poétique des estampes **Ukiyo-e**.</li>
+                <li>**Musique:** Ambiance Lo-fi et instruments traditionnels (Koto, Shakuhachi).</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Team Litchi. Le jeu Onigiri.</p>
+    </footer>
+
+</body>
+</html>
