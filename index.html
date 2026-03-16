@@ -3,11 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Onigiri</title>
-
-    <!-- Polices pixel + lisibles -->
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=Silkscreen&display=swap" rel="stylesheet">
-
+    <title>Onigiri - L'Aventure Noire et Cerise</title> 
+    
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@700&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -63,16 +62,16 @@
                     <a href="mailto:tristan.duret-robert@epita.fr" class="membre-carte">
                         <img src="images/membre2.jpg" alt="">
                         <h3>Duret-Robert</h3>
-                        <p class="role-contact">Physics & Collisions</p>
+                        <p class="role-contact">Rôle</p>
                         <p class="role-contact email-link">tristan.duret-robert@epita.fr</p>
                     </a>
                 </div>
 
                 <div class="membre-wrap">
-                    <a href="mailto:gabriel.cantat@epita.fr" class="membre-carte">
-                        <img src="images/membre3.jpg" alt="">
-                        <h3>Cantat</h3>
-                        <p class="role-contact">IA & Ennemis</p>
+                    <a href="mailto:gabriel.cantat@epita.fr" class="membre-carte" title="Cliquer pour envoyer un mail à Gabriel Cantat">
+                        <img src="images/membre3.jpg" alt="Photo de Gabriel">
+                        <h3> Cantat</h3>
+                        <p class="role-contact">Rôle</p>
                         <p class="role-contact email-link">gabriel.cantat@epita.fr</p>
                     </a>
                 </div>
@@ -81,8 +80,8 @@
                     <a href="mailto:tibo.hourriez@epita.fr" class="membre-carte">
                         <img src="images/membre4.jpg" alt="">
                         <h3>Hourriez</h3>
-                        <p class="role-contact">Direction Artistique</p>
-                        <p class="role-contact email-link">tibo.hourriez@epita.fr</p>
+                        <p class="role-contact">Rôle</p>
+                        <p class="role-contact email-link">tibo.hourriez@epita.f</p>
                     </a>
                 </div>
 
@@ -103,30 +102,32 @@
             <h2 class="section-title">Jouez & Partagez</h2>
             <p class="subtitle">Sessions dynamiques en ligne, de 2 à 4 joueurs.</p>
 
-            <div class="multijoueur-info">
-                <h3>Mode Multijoueur</h3>
-                <p>Affrontez vos amis ou faites équipe !</p>
-
-                <div class="statistiques-multijoueur">
-                    <div class="stat-item">
-                        <span class="stat-number">2-4</span>
-                        <span class="stat-label">Joueurs</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-number">🎮</span>
-                        <span class="stat-label">Manette</span>
-                    </div>
-                </div>
+    <div class="multijoueur-info">
+        <h3>Mode Multijoueur en Ligne</h3>
+        <p>Affrontez vos amis ou faites équipe ! Onigiri supporte le jeu en ligne de **deux à quatre participants** pour une expérience folklorique inoubliable.</p>
+        
+        <div class="statistiques-multijoueur">
+            <div class="stat-item">
+                <span class="stat-number">2-4</span>
+                <span class="stat-label">Joueurs en Ligne</span>
             </div>
-
-            <h3>Partager le jeu</h3>
-            <div class="zone-partage">
-                <input type="text" value="https://github.com/edenlaloum" readonly class="partage-input">
-                <button class="partage-bouton">Copier</button>
+            <div class="stat-item">
+                <span class="stat-number">🎮</span>
+                <span class="stat-label">Compatibilité Manette</span>
             </div>
-        </section>
-
-        <!-- TELECHARGER -->
+        </div>
+    </div>
+    
+    <h3>Envoyer et Partager le Jeu</h3>
+    <p>Une fois le jeu téléchargé, partagez votre enthousiasme et le lien de cette page avec vos amis pour qu'ils puissent vous rejoindre !</p>
+    
+    <div class="zone-partage">
+        <input type="text" value="https://votre-site-onigiri.com" readonly class="partage-input">
+        <button class="partage-bouton" onclick="alert('Lien copié ! (Fonctionnalité réelle à implémenter)')">
+            Copier le Lien
+        </button>
+    </div>
+</section>
         <section id="telecharger" class="content-panel">
             <h2 class="section-title">Télécharger Onigiri</h2>
             <p class="subtitle">Choisissez votre plateforme :</p>
@@ -142,17 +143,17 @@
         <section id="ressources" class="content-panel">
             <h2 class="section-title">Ressources</h2>
             <ul class="inspiration-list">
-                <li>Hollow Knight : Silksong</li>
+                <li>**Folklore:** Les légendes des **Oni** et des esprits **Kodama**.</li>
+                <li>**Graphisme:** L'esthétique sombre et poétique des estampes **Ukiyo-e**.</li>
+                <li>**Musique:** Ambiance Lo-fi et instruments traditionnels (Koto, Shakuhachi).</li>
             </ul>
         </section>
 
     </main>
 
     <footer>
-        <p>&copy; 2025 Team Litchi</p>
+        <p>&copy; 2025 Team Litchi. Le jeu Onigiri.</p>
     </footer>
 
 </body>
 </html>
-
-
